@@ -5,7 +5,7 @@ print("Hello, Python!")
 print("The sum is:", 2 + 3)
 
 
-# Single-line comment
+#---COMMENT---
 """
 Multi-line comment
 Good for documentation
@@ -173,5 +173,6 @@ list("abc")    # ['a','b','c']
 tuple([1,2,3]) # (1,2,3)
 set([1,1,2])   # {1,2}
 dict([("a",1), ("b",2)])  # {'a':1, 'b':2}
+
 
 
