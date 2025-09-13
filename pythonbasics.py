@@ -50,6 +50,12 @@ a <= b   # less or equal
 (a > 5) or (b < 10)    # True if at least one condition is True
 not (a > 5)            # negates condition
 
+#---IDENTITY OPERATORS---
+a = [1, 2, 3]
+b = a
+print(a is b)  # True (same memory reference)
+print(a == b   # True (Same Values)
+
 #---ASSIGNMENT OPERATORS---
 x = 10
 x += 5   # x = x + 5
@@ -110,6 +116,7 @@ s.lower()          # "  hello, python!  "
 s.upper()          # "  HELLO, PYTHON!  "
 s.capitalize()     # "  hello, python!  "
 s.title()          # "  Hello, Python!  "
+
 
 s.strip()          # "Hello, Python!" (removes spaces)
 s.lstrip()         # remove left spaces
@@ -173,6 +180,7 @@ list("abc")    # ['a','b','c']
 tuple([1,2,3]) # (1,2,3)
 set([1,1,2])   # {1,2}
 dict([("a",1), ("b",2)])  # {'a':1, 'b':2}
+
 
 
 
